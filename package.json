@@ -1,0 +1,21 @@
+{
+  "name": "message-storage-service",
+  "description": "Simple Node.js web service which allows users to save/retrieve plain text messages",
+  "version": "0.1.0",
+  "author": {
+    "name": "Sergejs S",
+    "email": "sparc64@riseup.net"
+  },
+  "dependencies": {
+    "mongoose": "4",
+    "config": "1"
+  },
+  "devDependencies": {
+    "mocha": "3",
+    "request": "2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js"
+}
